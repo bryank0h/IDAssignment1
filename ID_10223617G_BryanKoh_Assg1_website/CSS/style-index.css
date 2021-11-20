@@ -3,16 +3,13 @@ html {
     font-family: monospace;
 }
 
-h1 {
-    font-size: 300%;
-}
-
 .Content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: left;   
+    text-align: left;
+    transition: .1s ease-in; 
 }
 
 .Description {
@@ -25,14 +22,17 @@ h1 {
 }
 
 .Description > h1 {
+    font-size: 300%;
     background-color: rgb(250, 61, 73);
-    padding: 10px 400px 10px 10px;
+    padding: 10px;
     
 }
 
 .Description > p {
+    font-size: 110%;
     background-color: rgb(0, 170, 255);
     padding: 10px;
+
 }
 
 .Description > div {
@@ -46,24 +46,74 @@ h1 {
     border-radius: 120px 20px;
 }
 
+.Image > img:hover {
+    border-color: white;
+    transition: .1s ease-in;
+
+}
+
+.Image-text {
+    color: white;
+    line-height: 200%;
+    opacity: 0;
+    transition: .1s ease-in;   
+}
+
+
+.Image:hover .Image-text {
+    opacity: 1;   
+}
+
+
 .Menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(78, 78, 78);
     padding: 30px 10px;
     justify-content: center;
+}
+
+.Menu > .Items {
+    background-color:rgb(30,30,30);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin: 10px 50px;
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 200%;
+    color: white;
+    justify-content: center;
+}
+
+.Menu > .Items:hover {
+    border-color: white;
+    transition: .5s ease;
 }
 
 .Menu-item {
     color: white;
     background-color: rgb(48, 48, 48);
-    text-align: center;
     border: 1px solid rgb(255, 196, 0);
     border-radius: 5px;
-    padding: 10px 50px;
-    margin: 10px 20px;
+    padding: 10px 80px;
     width: 100px;
     white-space: nowrap;
+}
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 196, 0);
+    background-color: rgb(78, 78, 78);
+    border-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .Content {
+        flex-direction: column;
+    }
 }
