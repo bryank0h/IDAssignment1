@@ -1,0 +1,9 @@
+html {
+    background-color: rgb(30,30,30);
+    font-family: monospace;
+}
+
+Content {
+    display: flex;
+    flex-direction: row;
+}
