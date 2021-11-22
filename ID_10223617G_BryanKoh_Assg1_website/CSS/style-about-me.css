@@ -3,25 +3,42 @@ html {
     font-family: monospace;
 }
 
+header > h1 {
+    color: white;
+    font-size: 450%;
+    margin: 20px 20px
+}
+
 .Menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(78, 78, 78);
-    font-size: 120%;
-    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px 0px;
     margin: 15px;
+    
 }
 
 .Menu-item {
-    width: 100px;
-    text-decoration: none;
-    border: 2px solid black;
-    padding: 20px 40px;
-    margin: 20px;
     color: white;
+    background-color: rgb(48,48,48);
     text-align: center;
     white-space: nowrap;
+    width: 100px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 10px;
+    padding: 16px 36px;
+    margin: 10px;
+    
+}
+
+a.Menu-item:hover {
+    border-color:white;
+    background-color: rgb(78, 78, 78);
+    transition: .2s ease;
 }
 
 .Content {
@@ -30,6 +47,11 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+.Content > figure > img {
+    width: 200px;
+}
+
 
 .Description {
     color: white;
