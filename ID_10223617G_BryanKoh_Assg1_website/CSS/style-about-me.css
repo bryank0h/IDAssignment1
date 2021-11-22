@@ -3,7 +3,37 @@ html {
     font-family: monospace;
 }
 
-Content {
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(78, 78, 78);
+    font-size: 120%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.Menu-item {
+    width: 100px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 20px 40px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.Content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description {
+    color: white;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
