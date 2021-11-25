@@ -1,0 +1,78 @@
+h2 {
+    margin-left: 20px;
+}
+
+.Social {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 1px;
+    padding: 40px;
+    margin: 0px 200px;
+    transition: margin .4s ease-in-out, background-color .4s ease-in-out;
+    transition-delay: 0s, .2s;   
+}
+
+.Social:hover {
+    transition: margin .4s ease-in-out, background-color .4s ease-in-out;
+    transition-delay: 0s, .2s;
+    border-color: rgb(59, 180, 255);
+    margin: 0px 20px;
+    background-color: whitesmoke;   
+}
+
+.Social img {
+    width: 200px;
+    transition: transform .2s;
+}
+
+.Social img:hover {
+    transform: scale(1.2);
+}
+
+.Message-Form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+form {
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0px 20px;
+    font-size: larger;
+    line-height: 150%;
+}
+
+#name, #email {
+    width: 225px;
+    height: 20px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    resize: none; 
+    transition: .2s ease;
+
+}
+
+#submit {
+    padding: 5px 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .Social {
+        margin: 0px 40px;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-wdith: 500px) {
+    .Social img {
+        width: 100px;
+    }
+}

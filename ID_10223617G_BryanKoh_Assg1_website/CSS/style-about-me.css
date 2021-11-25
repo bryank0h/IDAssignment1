@@ -38,10 +38,6 @@
 }
 
 @media screen and (max-width: 700px) {
-    header > h1 {
-        font-size: 300%;
-    }
-
     .Content {
         flex-direction: column;
     }
