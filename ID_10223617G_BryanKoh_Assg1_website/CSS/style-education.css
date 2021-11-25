@@ -31,8 +31,7 @@ header > h1 {
     border: 2px solid rgb(255, 196, 0);
     border-radius: 10px;
     padding: 16px 36px;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 
 a.Menu-item:hover {
@@ -49,6 +48,11 @@ body {
     display: flex;
     flex-direction: row;
     font-size: larger;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 10px;
+    margin: 0px 40px;
+    
 }
 
 figure img {
@@ -63,6 +67,8 @@ figure img {
     flex-direction: column;
     margin-top: 15px;
     margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 h2 {
@@ -82,4 +88,26 @@ h4 {
 p {
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    header > h1 {
+        font-size: 300%;
+    }
+
+
+    h2 {
+        margin-left: 20px;
+    }
+
+    figure img {
+        position: relative;
+        right: 20px;
+    }
+
+
+    .Content {
+        flex-direction: column;
+    }
+
 }
