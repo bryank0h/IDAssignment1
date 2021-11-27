@@ -2,8 +2,14 @@ h2 {
     margin-left: 20px;
 }
 
+h3 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
 .Social {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     border: 2px solid white;
     border-radius: 1px;
@@ -22,12 +28,31 @@ h2 {
 }
 
 .Social img {
-    width: 200px;
+    height: 60px;
+    margin: 0px 25px;
     transition: transform .2s;
 }
 
 .Social img:hover {
     transform: scale(1.2);
+}
+
+.Contact-Information {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 1px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Contact-Information a {
+    text-decoration: none;
+    color: rgb(255, 196, 0)
+}
+
+.Contact-Information a:hover {
+    color:rgb(255, 232, 156);
 }
 
 .Message-Form {
@@ -38,15 +63,21 @@ h2 {
 
 form {
     border: 2px solid white;
+    border-radius: 1px;
     padding: 20px;
     margin: 0px 20px;
     font-size: larger;
     line-height: 150%;
 }
 
-#name, #email {
+#name, #phone, #email {
     width: 225px;
     height: 20px;
+    transition: width .2s ease-in-out;
+}
+
+#name:hover, #phone:hover, #email:hover {    
+    width: 300px;
 }
 
 textarea {
@@ -62,7 +93,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .Social {
         margin: 0px 40px;
     }
@@ -71,8 +102,13 @@ textarea {
     }
 }
 
-@media screen and (max-wdith: 500px) {
-    .Social img {
-        width: 100px;
+@media screen and (max-width: 600px) {
+    .Social{
+        flex-direction: column;
+        align-items: flex-start;
     }
+    .Social img {  
+        height: 45px;  
+    }
+
 }

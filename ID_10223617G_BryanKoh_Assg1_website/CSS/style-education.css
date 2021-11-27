@@ -14,7 +14,13 @@ figure img {
     background-color: white;
     border: 4px solid rgb(255, 196, 0);
     padding: 15px;
+    transition: transform .2s;
 }
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
 
 .Details {
     display: flex;
@@ -22,7 +28,6 @@ figure img {
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 h2 {
