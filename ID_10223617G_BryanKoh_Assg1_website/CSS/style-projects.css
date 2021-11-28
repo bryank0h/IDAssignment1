@@ -17,6 +17,10 @@ a {
     border-radius: 1px;
     padding: 40px;
     margin: 0px 40px;
+    background: url("../Images/Backgrounds/purple-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 figcaption {
@@ -41,6 +45,10 @@ figcaption {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    padding: 30px;
+    margin: 0px 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
 }
 
 #Mobile-App img {
@@ -54,9 +62,10 @@ figcaption {
     max-width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 875px) {
     #Mobile-App figure {
         flex-direction: column;
+        padding: 15px;
     }
 }
 

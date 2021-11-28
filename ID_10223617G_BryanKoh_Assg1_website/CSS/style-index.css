@@ -1,7 +1,7 @@
 html {
     background: url(../Images/Backgrounds/rain.jpg);
     background-size: cover;
-    font-family: monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .Content {
@@ -23,10 +23,10 @@ html {
 }
 
 .Description > h1 {
+    font-family: 'Source Code Pro', monospace;
     font-size: 300%;
     background-color: rgb(250, 61, 73);
     padding: 10px;
-    
 }
 
 .Description > p {
@@ -75,6 +75,7 @@ html {
     border-top: 1px solid black;
     padding: 30px 10px;
     justify-content: center;
+    font-size: 90%;
 }
 
 .Menu > .Items {
@@ -86,7 +87,7 @@ html {
     text-align: center;
     text-justify: inter-word;
     line-height: 200%;
-    color: white;
+    color: white;   
     justify-content: center;
 }
 

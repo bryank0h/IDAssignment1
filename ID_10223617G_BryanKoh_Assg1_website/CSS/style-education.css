@@ -6,7 +6,9 @@
     border-radius: 1px;
     padding: 10px;
     margin: 0px 40px;
-    
+    background: url("../Images/Backgrounds/black-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 figure img {

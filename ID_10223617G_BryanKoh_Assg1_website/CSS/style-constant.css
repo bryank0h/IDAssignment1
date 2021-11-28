@@ -1,27 +1,40 @@
 html {
     background-color: rgb(30,30,30);
-    font-family: monospace;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
 }
 
 header > h1 {
     color: white;
-    font-size: 450%;
+    font-size: 390%;
     margin: 20px 20px
 }
+
 
 .Menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(78, 78, 78);
+    background: url("../Images/Backgrounds/black-hexagon.png");
+    background-size: cover;
     border: 2px solid black;
     border-radius: 3px;
     padding: 10px 0px;
     margin: 15px;
+    transition: border-color .2s ease;
+}
+
+.Menu:hover {
+    border-color: rgb(167, 167, 167);
+    transition: border-color .2s ease;
 }
 
 .Menu-item {
     color: white;
+    font-family: 'Overpass', sans-serif;
     background-color: rgb(48,48,48);
     text-align: center;
     white-space: nowrap;
