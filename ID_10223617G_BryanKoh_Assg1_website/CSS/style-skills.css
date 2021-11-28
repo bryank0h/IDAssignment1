@@ -7,13 +7,27 @@ h3 {
     margin-right: 40px;
 }
 
+pre h3 {
+    font-size: 90%;
+}
+
 .Content {
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
+    border: 2px solid rgb(130, 213, 255);
     border-radius: 1px;
     margin: 10px 40px;
     padding: 40px;
+    text-align: center;
+    background: url("../Images/Backgrounds/blue-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
+    transition: border-color .2s ease;
+}
+
+.Content:hover {
+    border-color: white;
+    transition: .2s ease;
 }
 
 #Proficiency {
@@ -30,13 +44,12 @@ h3 {
 
 #Invisible-BlockB {
     display: block;
-    width: 240px;
+    width: 175px;
 }
 
 .Skill {
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .Skill > div {
@@ -44,7 +57,6 @@ h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: end;
     transition: transform .2s;
 }
 
@@ -58,7 +70,7 @@ h3 {
 
 .Bar > span {
     display: block;
-    background-color: white;
+    background-color: rgb(255, 132, 0);
     height: 100%;
     border-radius: 2px
 }
@@ -68,22 +80,37 @@ h3 {
     transition: transform .2s;
 }
 
-@media screen and (max-width: 815px) {
+.Row {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Column {
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 900px) {
     #Proficiency {
         justify-content: flex-start;
     }
 
     #Invisible-BlockA {
-        width: 135px;
+        width: 204px;
     }
     #Invisible-BlockB {
         width: 0px;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     h3 {
         margin-right: 10px;
+    }
+
+    pre h3 {
+        font-size: 60%;
     }
 
     #Proficiency {
