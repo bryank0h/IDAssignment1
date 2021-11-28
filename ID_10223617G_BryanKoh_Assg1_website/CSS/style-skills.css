@@ -1,0 +1,98 @@
+h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3 {
+    margin-right: 40px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 1px;
+    margin: 10px 40px;
+    padding: 40px;
+}
+
+#Proficiency {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#Invisible-BlockA {
+    display: block;
+    width: 0px;
+}
+
+#Invisible-BlockB {
+    display: block;
+    width: 240px;
+}
+
+.Skill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Skill > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    transition: transform .2s;
+}
+
+.Bar {
+    height: 20px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;  
+}
+
+.Bar > span {
+    display: block;
+    background-color: white;
+    height: 100%;
+    border-radius: 2px
+}
+
+.Skill > div:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+@media screen and (max-width: 815px) {
+    #Proficiency {
+        justify-content: flex-start;
+    }
+
+    #Invisible-BlockA {
+        width: 135px;
+    }
+    #Invisible-BlockB {
+        width: 0px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    h3 {
+        margin-right: 10px;
+    }
+
+    #Proficiency {
+        justify-content: flex-end;
+    }
+    #Proficiency h3 {
+        margin-right: 0px;
+    }
+    #Invisible-BlockA {
+        width: 0px;
+    }
+}
