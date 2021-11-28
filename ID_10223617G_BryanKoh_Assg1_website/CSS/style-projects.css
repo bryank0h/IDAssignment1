@@ -1,14 +1,76 @@
 h2 {
-    margin-left: 40px
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 196, 0);
 }
 
 .Content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     font-size: larger;
     border: 1px solid white;
     border-radius: 1px;
-    padding: 10px;
-    margin: 0px 40px;
-    
+    padding: 40px;
+    margin: 0px 40px; 
+}
+
+figcaption {
+    font-size: 70%;
+}
+
+#Simp-City figure, .App-Project, #Adware figure {
+    transition: transform .2s;
+}
+
+#Simp-City figure:hover, .App-Project:hover, #Adware figure:hover {
+    transition: transform .2s;
+    transform: scale(1.05);
+}
+
+#Simp-City img{
+    flex: 100%;
+    min-width: 340px;
+    max-width: 100%;
+}
+
+#Mobile-App figure {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#Mobile-App img {
+    flex: 100%;
+    min-width: 200px;
+    max-width: 60%;
+    margin: 0px 20px;
+}
+
+#Adware img{
+    flex: 100%;
+    min-width: 340px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #Mobile-App figure {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #Simp-City img{
+        min-width: 100%;
+        max-width: 220px;
+    }
+
+    #Adware img{
+        min-width: 100%;
+        max-width: 220px;
+    }
 }
