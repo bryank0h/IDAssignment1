@@ -15,7 +15,6 @@ header.Constant > h1 {
     margin: 20px 20px
 }
 
-
 header.Constant > .Menu {
     display: flex;
     flex-wrap: wrap;
@@ -102,13 +101,13 @@ body {
 }
 
 /* Styling for index.html */
-html.Index {
+.Index {
     background: url(../Images/Backgrounds/rain.jpg);
     background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-html.Index > body > .Content {
+.Index > body > .Content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,7 +116,7 @@ html.Index > body > .Content {
     transition: .1s ease-in; 
 }
 
-html.Index > body > .Content > .Description {
+.Index > body > .Content > .Description {
     align-content: center;  
     color: white;
     text-align: justify;
@@ -126,38 +125,38 @@ html.Index > body > .Content > .Description {
     margin: 0px 20px;
 }
 
-html.Index > body > .Content > .Description > h1 {
+.Index > body > .Content > .Description > h1 {
     font-family: 'Source Code Pro', monospace;
     font-size: 300%;
     background-color: rgb(250, 61, 73);
     padding: 10px;
 }
 
-html.Index > body > .Content > .Description > p {
+.Index > body > .Content > .Description > p {
     font-size: 110%;
     background-color: rgb(0, 170, 255);
     padding: 10px;
 
 }
 
-html.Index > body > .Content > .Description > div {
+.Index > body > .Content > .Description > div {
     background-color: rgb(174, 121, 255);
     padding: 1px;
 }
 
-html.Index > body > .Content > .Image > img {
+.Index > body > .Content > .Image > img {
     width: 300px; 
     border: 3px solid rgb(90, 90, 90);
     border-radius: 120px 20px;
 }
 
-html.Index > body > .Content > .Image > img:hover {
+.Index > body > .Content > .Image > img:hover {
     border-color: white;
     transition: .1s ease-in;
 
 }
 
-html.Index > body > .Content > .Image > .Image-text figcaption {
+.Index > body > .Content > .Image > .Image-text figcaption {
     color: black;
     background-color: rgb(255, 255, 255, .3);
     line-height: 200%;
@@ -165,13 +164,11 @@ html.Index > body > .Content > .Image > .Image-text figcaption {
     transition: .1s ease-in;   
 }
 
-
-html.Index > body > .Content > .Image:hover > .Image-text figcaption{
+.Index > body > .Content > .Image:hover > .Image-text figcaption{
     opacity: 1;   
 }
 
-
-html.Index > body > .Menu {
+.Index > body > .Menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,7 +179,7 @@ html.Index > body > .Menu {
     font-size: 90%;
 }
 
-html.Index > body > .Menu > .Items {
+.Index > body > .Menu > .Items {
     background-color:rgb(30,30,30);
     border: 1px solid black;
     border-radius: 5px;
@@ -195,12 +192,12 @@ html.Index > body > .Menu > .Items {
     justify-content: center;
 }
 
-html.Index > body > .Menu > .Items:hover {
+.Index > body > .Menu > .Items:hover {
     border-color: white;
     transition: .5s ease;
 }
 
-html.Index > body > .Menu > .Items > .Menu-item {
+.Index > body > .Menu > .Items > .Menu-item {
     color: white;
     background-color: rgb(48, 48, 48);
     border: 1px solid rgb(255, 196, 0);
@@ -211,14 +208,14 @@ html.Index > body > .Menu > .Items > .Menu-item {
     text-decoration: none;
 }
 
-html.Index > body > .Menu > .Items > .Menu-item:hover {
+.Index > body > .Menu > .Items > .Menu-item:hover {
     color: rgb(255, 196, 0);
     background-color: rgb(78, 78, 78);
     border-color: white;
 }
 
 @media only screen and (max-width: 900px) {
-    html.Index > body > .Content {
+    .Index > body > .Content {
         flex-direction: column;
     }
 }
@@ -276,7 +273,7 @@ html.Index > body > .Menu > .Items > .Menu-item:hover {
 }
 
 /* Styling for education.html */
-html.Education > body > .Content {
+.Education > body > .Content {
     display: flex;
     flex-direction: row;
     font-size: larger;
@@ -289,7 +286,7 @@ html.Education > body > .Content {
     background-attachment: fixed;
 }
 
-html.Education > body > .Content > figure img {
+.Education > body > .Content > figure img {
     width: 180px;
     background-color: white;
     border: 4px solid rgb(255, 196, 0);
@@ -297,12 +294,12 @@ html.Education > body > .Content > figure img {
     transition: transform .2s;
 }
 
-html.Education > body > .Content > figure img:hover {
+.Education > body > .Content > figure img:hover {
     transform: scale(1.05);
 }
 
 
-html.Education > body > .Content > .Details {
+.Education > body > .Content > .Details {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -310,45 +307,372 @@ html.Education > body > .Content > .Details {
     margin-right: 20px;
 }
 
-html.Education > body > h2 {
+.Education > body > h2 {
     margin-left: 40px
 }
 
-html.Education > body > .Content > .Details h3 {
+.Education > body > .Content > .Details h3 {
     margin-top: -4px;
     margin-bottom: 0px;
 }
 
-html.Education > body > .Content > .Details > p > h4 {
+.Education > body > .Content > .Details > p > h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-html.Education > body > .Content > .Details > p {
+.Education > body > .Content > .Details > p {
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
 @media screen and (max-width: 700px) {
-    html.Education > body > .Content > figure img {
+    .Education > body > .Content > figure img {
         position: relative;
         right: 20px;
     }
 
-    html.Education > body > .Content {
+    .Education > body > .Content {
         flex-direction: column;
     }
 
 }
 
 @media screen and (max-width: 400px) {
-    html.Education > body > h2 {
+    .Education > body > h2 {
         margin-left: 40px;
     }
-    html.Education > body > .Content {
+    .Education > body > .Content {
         justify-content: center;
     }
-    html.Education > body > .Content > figure img {
+    .Education > body > .Content > figure img {
         right: 12px;
+    }
+}
+
+/* Styling for skills.html */
+.Skills > body > h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Skills > body > .Content > div > h3, .Skills > body > .Content > .Skill > div > pre h3 {
+    margin-right: 40px;
+}
+
+.Skills > body > .Content > .Skill > div > pre h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 90%;
+}
+
+.Skills > body > .Content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(130, 213, 255);
+    border-radius: 1px;
+    margin: 10px 40px;
+    padding: 40px;
+    text-align: center;
+    background: url("../Images/Backgrounds/blue-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
+    transition: border-color .2s ease;
+}
+
+.Skills > body > .Content:hover {
+    border-color: white;
+    transition: .2s ease;
+}
+
+#Proficiency {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#Invisible-BlockA {
+    display: block;
+    width: 0px;
+}
+
+#Invisible-BlockB {
+    display: block;
+    width: 159px;
+}
+
+.Skills > body > .Content > .Skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.Skills > body > .Content > .Skill > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s;
+}
+
+.Skills > body > .Content > .Skill > div > .Bar {
+    height: 20px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;  
+}
+
+.Skills > body > .Content > .Skill > div > .Bar > span {
+    display: block;
+    background-color: rgb(255, 132, 0);
+    height: 100%;
+    border-radius: 2px
+}
+
+.Skills > body > .Content > .Skill > div:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+.Skills > body > .Content.Row {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Skills > body > .Content.Row > .Column {
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 900px) {
+    #Proficiency {
+        justify-content: flex-start;
+    }
+
+    #Invisible-BlockA {
+        width: 215px;
+    }
+    #Invisible-BlockB {
+        width: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Skills > body > .Content > .Skill > div > pre h3 {
+        margin-right: 10px;
+        font-size: 60%;
+    }
+
+    #Proficiency {
+        justify-content: flex-end;
+    }
+    #Proficiency h3 {
+        margin-right: 0px;
+    }
+    #Invisible-BlockA {
+        width: 0px;
+    }
+}
+
+/* Styling for projects.html */
+.Projects > body > h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Projects > body > .Content > p a {
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+}
+
+.Projects > body > .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 40px;
+    margin: 0px 40px;
+    background: url("../Images/Backgrounds/purple-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.Projects > body > .Content > figure > figcaption {
+    font-size: 70%;
+}
+
+.Projects > body > .Content > figure > div > figcaption {
+    font-size: 70%;
+}
+
+#Simp-City figure, #Mobile-App > figure .App-Project, #Adware figure {
+    transition: transform .2s;
+}
+
+#Simp-City figure:hover, #Mobile-App > figure .App-Project:hover, #Adware figure:hover {
+    transition: transform .2s;
+    transform: scale(1.05);
+}
+
+#Simp-City img{
+    min-width: 340px;
+    max-width: 100%;
+}
+
+#Mobile-App figure {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 30px;
+    margin: 0px 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+}
+
+#Mobile-App img {
+    min-width: 200px;
+    max-width: 60%;
+    margin: 0px 20px;
+}
+
+#Adware img{
+    min-width: 340px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 875px) {
+    #Mobile-App figure {
+        flex-direction: column;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #Simp-City img{
+        min-width: 100%;
+        max-width: 220px;
+    }
+
+    #Adware img{
+        min-width: 100%;
+        max-width: 220px;
+    }
+}
+
+/* Styling for contact-me.html */
+.Contact-Me > body h2 {
+    margin-left: 20px;
+}
+
+.Contact-Me > body > .Contact-Information h3 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.Contact-Me > body > .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 1px;
+    padding: 40px;
+    margin: 0px 200px;
+    transition: margin .4s ease-in-out, background-color .4s ease-in-out;
+    transition-delay: 0s, .2s;   
+}
+
+.Contact-Me > body > .Social:hover {
+    transition: margin .4s ease-in-out, background-color .4s ease-in-out;
+    transition-delay: 0s, .2s;
+    border-color: rgb(59, 180, 255);
+    margin: 0px 20px;
+    background-color: whitesmoke;   
+}
+
+.Contact-Me > body > .Social img {
+    height: 60px;
+    margin: 0px 25px;
+    transition: transform .2s;
+}
+
+.Contact-Me > body > .Social img:hover {
+    transform: scale(1.2);
+}
+
+.Contact-Me > body > .Contact-Information {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 1px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Contact-Me > body > .Contact-Information a {
+    text-decoration: none;
+    color: rgb(255, 196, 0)
+}
+
+.Contact-Me > body > .Contact-Information a:hover {
+    color:rgb(255, 232, 156);
+}
+
+.Contact-Me > body > .Message-Form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+.Contact-Me > body > .Message-Form > form {
+    border: 2px solid white;
+    border-radius: 1px;
+    padding: 20px;
+    margin: 0px 20px;
+    font-size: larger;
+    line-height: 150%;
+}
+
+#name, #phone, #email {
+    width: 225px;
+    height: 20px;
+    transition: width .2s ease-in-out;
+}
+
+#name:hover, #phone:hover, #email:hover {    
+    width: 300px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    resize: none; 
+    transition: .2s ease;
+
+}
+
+#submit {
+    padding: 5px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .Contact-Me > body > .Social {
+        margin: 0px 40px;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Contact-Me > body > .Social{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Contact-Me > body > .Social img {  
+        height: 45px;  
     }
 }
