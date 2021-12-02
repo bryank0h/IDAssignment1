@@ -40,9 +40,10 @@ For the "Contact Me" page, I have included 3 social platforms (LinkedIn, Faceboo
 
 ## Technologies Used
 
-**- JavaScript**
+- JavaScript <br>
     The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
-**- Adobe Illustrator**
+
+- Adobe Illustrator <br>  
     Used for the design of my hexagonal backgrounds.
 
 ## Testing
