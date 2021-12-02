@@ -5,6 +5,7 @@
     align-items: center;
     background: url(../Images/Backgrounds/mountain.jpg);
     background-size: cover;
+    background-attachment: fixed;
     margin: 10px;
     font-size: larger;  
 }
@@ -14,6 +15,7 @@
     border: 4px solid rgb(51, 118, 133);
     margin: 15px 0px;
     transition: border-color .3s ease;
+    cursor:pointer;
 }
 
 .Content > figure > img:hover {

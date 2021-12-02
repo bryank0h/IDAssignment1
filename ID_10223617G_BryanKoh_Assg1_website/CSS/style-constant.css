@@ -70,7 +70,7 @@ a.Menu-item:hover {
 }
 
 .Toggle-Hamburger {
-    display: inline-block;
+    display: inline;
     background-color: white;
     width: 36px;
     height: 5px;
