@@ -28,38 +28,36 @@ For the "Contact Me" page, I have included 3 social platforms (LinkedIn, Faceboo
 
 ## Features
 
-- Feature 1: The navigation buttons glows up and grows slightly wherever the cursor is at, making it very interactive and easy to see when accessing the menu bar.
-- Feature 2: Some images change border colour while some may grow when hovered over by the cursor, making the images interactive and easily viewable.
-- Feature 3: Border colors of each section in the skill page changes depending on where the cursor is at, hence making the skill page interactive.
-- Feature 4: In the "Projects" page, clicking on the photo opens up the image in full size.
-- Feature 5: Backgrounds in "Education", "Skills" and "Projects" are fixed, giving the backgrounds depth when scrolling on the website.
-- Feature 6: In the "Contact Me" page, upon hovering on the social media box, it expands and glows. The icons grow when they are hovered as well. The width of the input boxes for the message form grows when hovered over, hence long emails or names can be seen.
-- Feature 7: A Hamburger Menu is implemented for mobile users. It toggles the navigation menu when clicked and the navigation menu can be retracted upon clicking on the hamburger menu again.
-- Feature 8: Sending messages will display a pop-up thank you message to the sender as well as displaying the thank you message underneath the "Send Message" button. If the sender sends another message, the message underneath the button changes to "Another message has been sent!...".
-- Feature 9: All pages are fully responsive on mobile devices, hence people are able to view the website through their mobile phones.
+- **Feature 1**: The navigation buttons glows up and grows slightly wherever the cursor is at, making it very interactive and easy to see when accessing the menu bar.
+- **Feature 2**: Some images change border colour while some may grow when hovered over by the cursor, making the images interactive and easily viewable.
+- **Feature 3**: Border colors of each section in the skill page changes depending on where the cursor is at, hence making the skill page interactive.
+- **Feature 4**: In the "Projects" page, clicking on the photo opens up the image in full size.
+- **Feature 5**: Backgrounds in "Education", "Skills" and "Projects" are fixed, giving the backgrounds depth when scrolling on the website.
+- **Feature 6**: In the "Contact Me" page, upon hovering on the social media box, it expands and glows. The icons grow when they are hovered as well. The width of the input boxes for the message form grows when hovered over, hence long emails or names can be seen.
+- **Feature 7**: A Hamburger Menu is implemented for mobile users. It toggles the navigation menu when clicked and the navigation menu can be retracted upon clicking on the hamburger menu again.
+- **Feature 8**: Sending messages will display a pop-up thank you message to the sender as well as displaying the thank you message underneath the "Send Message" button. If the sender sends another message, the message underneath the button changes to "Another message has been sent!...".
+- **Feature 9**: All pages are fully responsive on mobile devices, hence people are able to view the website through their mobile phones.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- JavaScript
-The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
-- Adobe Illustrator
-Used for the design of my hexagonal backgrounds.
+**- JavaScript**
+    The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
+**- Adobe Illustrator**
+    Used for the design of my hexagonal backgrounds.
 
 ## Testing
 
-1. Resizable Menu Bar
+**1. Resizable Menu Bar**
    1. Drag the browser window corner to resize window.
    2. Ensure that the menu buttons warp and goes to the next line without changing size or overflowing.
 
-2. Hamburger Menu
+**2. Hamburger Menu**
    1. Ensure width of browser window or device is 500px or below.
    2. Menu bar should disappear and replaced by a hamburger button.
    3. Click on hamburger button and see if the the navigation display appears.
    4. Click on hamburger button again and ensure that the menu retracts.
 
-3. Thank you Message
+**3. Thank you Message**
    1. Go to "Contact Me" page.
    2. Try to submit an empty form and ensure that an error message "Please fill out this field" appears.
    3. Try keying in invalid email such as taking away '@'. Ensure that there is an error message "Please include an '@' in the email address..."
@@ -75,4 +73,4 @@ Overall, content on all pages would be displayed as a column when viewed on mobi
 ### Media
 - The snow photo background used in the "About Me" page is from https://www.freepik.com/
 ### Fonts
-- *Source Code Pro*, *Josefin Sans* and *Overpass* Obtained at https://fonts.google.com/
+- *Source Code Pro*, *Josefin Sans* and *Overpass* obtained at https://fonts.google.com/
