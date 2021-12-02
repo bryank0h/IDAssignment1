@@ -222,3 +222,133 @@ html.Index > body > .Menu > .Items > .Menu-item:hover {
         flex-direction: column;
     }
 }
+
+/* Styling for about-me.html */
+.About-Me > body > .Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: url(../Images/Backgrounds/mountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    font-size: larger;  
+}
+
+.About-Me > body > .Content > figure > img {
+    width: 200px;
+    border: 4px solid rgb(51, 118, 133);
+    margin: 15px 0px;
+    transition: border-color .3s ease;
+}
+
+.About-Me > body > .Content > figure > img:hover {
+    border-color: rgb(114, 200, 220);
+    transition: .3s ease;
+}
+
+
+.About-Me > body > .Content > .Description {   
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0px 30px 0px 0px;
+}
+
+.About-Me > body > .Content > .Description > .Light-Background {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.About-Me > body > .Content > .Description > .Light-Background p {
+    padding: 10px;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .About-Me > body > .Content {
+        flex-direction: column;
+    }
+    .About-Me > body > .Content > .Description {
+        margin: 0px 10px;
+    }
+}
+
+/* Styling for education.html */
+html.Education > body > .Content {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 10px;
+    margin: 0px 40px;
+    background: url("../Images/Backgrounds/black-hexagon.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html.Education > body > .Content > figure img {
+    width: 180px;
+    background-color: white;
+    border: 4px solid rgb(255, 196, 0);
+    padding: 15px;
+    transition: transform .2s;
+}
+
+html.Education > body > .Content > figure img:hover {
+    transform: scale(1.05);
+}
+
+
+html.Education > body > .Content > .Details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+html.Education > body > h2 {
+    margin-left: 40px
+}
+
+html.Education > body > .Content > .Details h3 {
+    margin-top: -4px;
+    margin-bottom: 0px;
+}
+
+html.Education > body > .Content > .Details > p > h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+html.Education > body > .Content > .Details > p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    html.Education > body > .Content > figure img {
+        position: relative;
+        right: 20px;
+    }
+
+    html.Education > body > .Content {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    html.Education > body > h2 {
+        margin-left: 40px;
+    }
+    html.Education > body > .Content {
+        justify-content: center;
+    }
+    html.Education > body > .Content > figure img {
+        right: 12px;
+    }
+}
