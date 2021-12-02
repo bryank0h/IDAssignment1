@@ -39,12 +39,17 @@ For the "Contact Me" page, I have included 3 social platforms (LinkedIn, Faceboo
 - **Feature 9**: All pages are fully responsive on mobile devices, hence people are able to view the website through their mobile phones.
 
 ## Technologies Used
+- HTML and CSS <br>
+For coding the website.
+
+- Adobe XD <br>
+For creating the wireframe of the website.
 
 - JavaScript <br>
-    The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
+The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
 
 - Adobe Illustrator <br>  
-    Used for the design of my hexagonal backgrounds.
+Used for the design of my hexagonal backgrounds.
 
 ## Testing
 
