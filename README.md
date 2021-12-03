@@ -1,6 +1,7 @@
 # ID_10223617G_BryanKoh_Assg1
 
-I have decided to create a personal portfolio site in order to showcase insightful information about me. This includes information such as a page describing about myself, my educational history, skill set as well as projects completed. The page also provide a means for people to be able to send messages to me as well as to contact me.
+A profile about myself, a resume, a testimonial, a portfolio. These are what is needed for future employers or recruiters to understand what a particular person is capable of and know his or her skill set. This also translates to being able to present a first good impression.  
+I have decided to create a personal portfolio site in order to showcase insightful information about myself. This includes information such as a page describing about myself, my educational history, skill set as well as projects completed. The page also provide a means for people to be able to send messages to me as well as to contact me.
 
 **Employers and interested parties are able to view my site to be able to gain a better understanding of my abilities and my educational history.**
  
@@ -48,7 +49,7 @@ For creating the wireframe of the website.
 - JavaScript <br>
 The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
 
-- Adobe Illustrator <br>  
+- Adobe Illustrator <br>
 Used for the design of my hexagonal backgrounds.
 
 ## Testing
