@@ -11,13 +11,13 @@ As this is a personal portfolio site, information should be presented in a neat 
 
 Before starting to code the website, I created a wireframe and thought about the number and types of pages I would have on my website. A wireframe helps me visualise the structure of my website so I would be able to code it effectively later on. It also helps me avoid poor design decisions made during the coding stage. The wireframe of my website is located in this repository.
 
-For my Homepage(index.html), I have decided to make it look like a landing site to welcome people to my website. I find that being able to warmly welcome the people visiting my site is just as important as, for example, people visiting my house. Hence, I provided my homepage with an elegant feel, with the welcome statements being in blocks of itself so that it is relaxing to read. Red and blue are primary colours which I have implemented for the background colour of the welcome statements. Purple is the mixture of red and blue, and it fits well to end the welcome statements. I have also added a photo of myself to finish off the welcome on the homepage. At the bottom of the website, I have added navigation boxes for people to click and go to their interested pages at my website. This includes "About me", "Education", "Skills", "Projects" and "Contact Me". I have added a background photo of raindrops which I have taken a few years ago as I find that it gives a relaxing feel to the homepage.
+For my Homepage(index.html), I have decided to make it to welcome people to my website. I find that being able to warmly welcome the people visiting my site is just as important as, for example, people visiting my house. Hence, I provided my homepage with an elegant feel, with the welcome statements being in blocks of itself so that it is relaxing to read. Red and blue are primary colours which I have implemented for the background colour of the welcome statements. Purple is the mixture of red and blue, and it fits well to end the welcome statements. I have also added a photo of myself to finish off the welcome on the homepage. At the bottom of the website, I have added navigation boxes for people to click and go to their interested pages at my website. This includes "About me", "Education", "Skills", "Projects" and "Contact Me". I have added a background photo of raindrops which I have taken a few years ago as I find that it gives a relaxing feel to the homepage.
 
 For the page "About Me", it gives a description about myself and people who visit this page would be able to get to know more about me, what I like and my goals. I felt that explaining about my goals would be quite essential so that employers know my motivations well.
 
-For the page "Education", it features my educational history in from Primary School, to Secondary School, and Polytechnic. It includes the years that I was studying at the school, my certifications, my CCA, roles held and my awards.
+For the page "Education", it features my educational history in from Primary School, to Secondary School, and Polytechnic. It includes the years that I was studying at the school, my certifications, my CCA, roles held and my awards. I have added the school logos to represent each of the schools.
 
-For the page "Skills", it showcases some of the skills I have learnt from my time in Secondary School and Polytehnic. I have included some soft skills which best describes me as well.
+For the page "Skills", it showcases some of the skills I have learnt from my time in Secondary School and Polytehnic. I have decided to use bars to represent my proficiency to a particular skill so that it is easy to compare when looking at my skill set as a whole. I have included some soft skills which best describes me as well.
 
 Both education and skills page are equally important as employers would need to see what skills I would be able to offer to the company. My education history also speaks a lot about what I have experienced and my achievements and roles will help to elevate the impression of me. Soft skills are just as important when working with a team of colleagues.
 
@@ -40,14 +40,11 @@ For the "Contact Me" page, I have included 3 social platforms (LinkedIn, Faceboo
 - **Feature 9**: All pages are fully responsive on mobile devices, hence people are able to view the website through their mobile phones.
 
 ## Technologies Used
-- HTML and CSS <br>
-For coding the website.
-
 - Adobe XD <br>
 For creating the wireframe of the website.
 
-- JavaScript <br>
-The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
+- Visual Studio Code -> HTML, CSS & JavaScript <br>
+Visual Studio Code is used to code the website. The website uses JavaScript for the Hamburger Menu and the Thank You message after sending a message.
 
 - Adobe Illustrator <br>
 Used for the design of my hexagonal backgrounds.
