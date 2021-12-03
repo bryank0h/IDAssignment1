@@ -1,4 +1,4 @@
-# ID_10223617G_BryanKoh_Assg1
+# IDAssignment1
 
 A profile about myself, a resume, a testimonial, a portfolio. These are what is needed for future employers or recruiters to understand what a particular person is capable of and know his or her skill set. This also translates to being able to present a first good impression.  
 I have decided to create a personal portfolio site in order to showcase insightful information about myself. This includes information such as a page describing about myself, my educational history, skill set as well as projects completed. The page also provide a means for people to be able to send messages to me as well as to contact me.
